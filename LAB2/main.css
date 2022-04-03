@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+
+.login_body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+    padding-top: 30px;
+    margin-top: 160px;
+}
+
+
+.login_logo{
+    margin-bottom: 20px;
+}
+.login_logo h1{
+    font-size: 48px;
+    color:#9400D3
+}
+.lg_user_inf{
+    width: 350px; position: relative;
+    margin-top: 5px;
+}
+.lg_user_inf input{
+    width: 100%;
+    padding: 10px 10px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: solid;
+    border-color: rgba(220, 220, 220, 0.808);
+}
+.lg_user_inf input:focus{
+    border-color: #9400D3;
+    outline: none;
+}
+
+.lg_idpw{
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    border: solid;
+    border-radius: 12px;
+    border-color:rgba(220, 220, 220, 0.808);
+}
+.lg_user_inf input:hover{
+    cursor: pointer;
+}
+.lg_submit button:hover{
+    cursor: pointer;
+}
+.lg_submit{margin-top: 20px;
+}
+.lg_submit button{
+    width: 108%;
+    height: 50px;
+    color: white;
+    background-color: #9400D3;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.signup_red{
+    margin-top: 30px;
+}
+.signup_red a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.signup_red button{
+    width: 90px;
+    height: 30px;
+    background-color: #9400D3;
+    border: 0;
+    border-radius: 5px;
+}
+.bth_wrap{
+    display: flex;
+    flex-direction: row;
+}
+.bth_yy{
+    width: 35%;
+}
+.bth_mm{
+    width: 30%;
+    padding-right: 5%;
+}
+.bth_dd{
+    width: 30%;
+}
+.signup_body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    padding-top: 30px;
+    margin-top: 600px;
+    margin-bottom: 700px;
+}
+.main h1{
+    font-size: 36px;
+    color: #9400D3;
+}
+.user_inf{
+    width: 400px; position: relative;
+    margin-top: 5px;
+}
+.user_inf input{
+    width: 100%;
+    padding: 10px 10px 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: solid;
+    border-color: rgba(220, 220, 220, 0.808);
+    border-width: 2px;
+}
+.user_inf input:focus{
+    border-color: #9400D3;
+    outline: none;
+}
+.signup{
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    border: solid;
+    border-radius: 12px;
+    border-color:rgba(220, 220, 220, 0.808);
+    border-width: 2px;
+    text-align: start;
+}
+.user_inf input:hover{
+    cursor: pointer;
+}
+.submit button:hover{
+    cursor: pointer;
+}
+.submit{margin-top: 20px;
+}
+.submit button{
+    width: 108%;
+    height: 50px;
+    color: white;
+    background-color: #9400D3;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.login_red{
+    margin-top: 30px;
+}
+.login_red a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.login_red button{
+    width: 180px;
+    height: 30px;
+    background-color: #9400D3;
+    border: 0;
+    border-radius: 5px;
+}
+.box{
+    height: 30px;
+    size: 30px;
+}
